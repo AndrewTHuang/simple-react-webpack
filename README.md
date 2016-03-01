@@ -5,7 +5,7 @@ This is a barebones boilerplate that works for me when initializing small projec
 # Tools
 * React
 * Webpack
-..* including a small Express dev server
+  * including a small Express dev server
 * ES6 (transpiled with Babel)
 * Sass
 * Hot-reloading
