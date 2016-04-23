@@ -20,7 +20,7 @@ module.exports = {
       {
         test: /\.jsx?/,
         loaders: ['babel'],
-        include: path.join(__dirname, 'src')
+        exclude: path.join(__dirname, 'node_modules')
       },
       {
         test: /\.scss$/,
@@ -33,5 +33,10 @@ module.exports = {
         include: path.join(__dirname, 'src/assets')
       }
     ]
+  },
+  externals: {
+    'cheerio': 'window',
+    'react/lib/ExecutionEnvironment': true,
+    'react/lib/ReactContext': true
   }
 };
