@@ -5,14 +5,14 @@ This is a barebones boilerplate that works for me when initializing small projec
 ## Tools
 * React
 * Webpack
-..* including a small Express dev server
+  * including a small Express dev server
 * Babel (to transpile ES6)
 * SASS
 * Testing
-..* Karma
-..* Mocha + Chai
-..* [Enzyme](http://airbnb.io/enzyme/)
-..* PhantomJS
+  * Karma
+  * Mocha + Chai
+  * [Enzyme](http://airbnb.io/enzyme/)
+  * PhantomJS
 * Hot-reloading
 
 ## Usage
